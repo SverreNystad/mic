@@ -4,5 +4,6 @@
 curl -L -o HNTSMRG24_train.zip "https://zenodo.org/records/11199559/files/HNTSMRG24_train.zip?download=1"
 
 # Unzip the dataset
+mkdir -p data
 unzip HNTSMRG24_train.zip -d data/
 rm HNTSMRG24_train.zip
