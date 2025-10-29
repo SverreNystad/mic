@@ -6,8 +6,10 @@ readme = "README.md"
 requires-python = ">=3.12"
 license-files = ["LICENSE"]
 dependencies = [
+    "hiddenlayer",
     "monai>=1.5.1",
     "nnunetv2>=2.6.2",
+    "torch>=2.8.0",
 ]
 
 
@@ -35,3 +37,6 @@ version_scheme = "pep440"
 version_provider = "uv"
 update_changelog_on_bump = true
 major_version_zero = true
+
+[tool.uv.sources]
+hiddenlayer = { git = "https://github.com/FabianIsensee/hiddenlayer.git" }
