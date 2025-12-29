@@ -855,10 +855,10 @@ nvidia-cuda-runtime-cu12==12.9.79 ; platform_machine == 'x86_64' and sys_platfor
     --hash=sha256:25bba2dfb01d48a9b59ca474a1ac43c6ebf7011f1b0b8cc44f54eb6ac48a96c3 \
     --hash=sha256:83469a846206f2a733db0c42e223589ab62fd2fabac4432d2f8802de4bded0a4 \
     --hash=sha256:8e018af8fa02363876860388bd10ccb89eb9ab8fb0aa749aaf58430a9f7c4891
-nvidia-cudnn-cu12==9.15.0.57 ; platform_machine == 'x86_64' and sys_platform == 'linux' \
-    --hash=sha256:16bc0770797354548c005d4029fca63dbd18badfc7561fafd26959f9c49a6102 \
-    --hash=sha256:7b45341e138834df304ba4190b6ce31b69f9a688de776c56f789127bef907b50 \
-    --hash=sha256:fb5f2ee98668c54ccc7ff5dcdd2ceadad2720e1dc00c6e422f16f7d4ff226681
+nvidia-cudnn-cu12==9.17.1.4 ; platform_machine == 'x86_64' and sys_platform == 'linux' \
+    --hash=sha256:0760c843fb109631edf5bd4234f2a260a13a05c18ee2a20783fbb4eb04d56645 \
+    --hash=sha256:b5083ced291edb2baf8eab09951c6bc58b79b2023c4ec885657a63acdf51d0bd \
+    --hash=sha256:d18d61bdd596fca0dbe459c129f6eb7a24ed2e6de1d7988b0a37ac63184ee05d
 nvidia-cufft-cu12==11.3.3.83 ; platform_machine == 'x86_64' and sys_platform == 'linux' \
     --hash=sha256:4d2dd21ec0b88cf61b62e6b43564355e5222e4a3fb394cac0db101f2dd0d4f74
 nvidia-cufile-cu12==1.13.1.3 ; platform_machine == 'x86_64' and sys_platform == 'linux' \
