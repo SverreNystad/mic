@@ -1284,9 +1284,9 @@ threadpoolctl==3.6.0 \
 tifffile==2025.12.20 \
     --hash=sha256:bc0345a20675149353cfcb3f1c48d0a3654231ee26bd46beebaab4d2168feeb6 \
     --hash=sha256:cb8a4fee327d15b3e3eeac80bbdd8a53b323c80473330bcfb99418ee4c1c827f
-timm==1.0.21 \
-    --hash=sha256:aa372fe43a85ed6ea0dd14945dac724c842e6e373779e2a2afd67d7dc1b82c4c \
-    --hash=sha256:e7428083af9f68af5ef1d50724946d9b6a2ccba8688c3e5fc9370f59f76e50cf
+timm==1.0.25 \
+    --hash=sha256:47f59fc2754725735cc81bb83bcbfce5bec4ebd5d4bb9e69da57daa92fcfa768 \
+    --hash=sha256:bef7f61dd717cb2dbbb7e326f143e13d660a47ecbd84116e6fe33732bed5c484
 torch==2.10.0 \
     --hash=sha256:233aed0659a2503b831d8a67e9da66a62c996204c0bba4f4c442ccc0c68a3f60 \
     --hash=sha256:29b7009dba4b7a1c960260fc8ac85022c784250af43af9fb0ebafc9883782ebd \
