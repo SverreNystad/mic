@@ -8,7 +8,7 @@ resolution-markers = [
 
 [[package]]
 name = "acvl-utils"
-version = "0.2.5"
+version = "0.2.6"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "batchgenerators" },
@@ -19,7 +19,7 @@ dependencies = [
     { name = "simpleitk" },
     { name = "torch" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/c2/65/c61fc19a1b10d2367c00bd52a5585b89ce8fb408d2a18e41e9c14fe6510c/acvl_utils-0.2.5.tar.gz", hash = "sha256:062eebc28b83756cc8dbe7aa0a09f98a2f9ea8d20a16d2c11c8598d7d2b47102", size = 29138, upload-time = "2025-02-26T14:12:53.184Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/f3/7b/cac76bd8285369399be3ac2e29f3e4ef2b36fe3b75fe357825e481eee825/acvl_utils-0.2.6.tar.gz", hash = "sha256:d6bd68a916fb2451ab3dd640b2494e545edc204c839ae1d4dd49f88f89999b74", size = 34313, upload-time = "2026-04-09T12:03:44.893Z" }
 
 [[package]]
 name = "annotated-types"
@@ -95,15 +95,17 @@ sdist = { url = "https://files.pythonhosted.org/packages/9c/f8/bff7e5eaf85b064a8
 
 [[package]]
 name = "batchgeneratorsv2"
-version = "0.3.0"
+version = "0.3.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "batchgenerators" },
-    { name = "fft-conv-pytorch" },
     { name = "numpy" },
     { name = "torch" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/c6/de/18e980df1ae1a1a74e29ccb5ad7e11c3c07df5caf0f8cc926d303feed08c/batchgeneratorsv2-0.3.0.tar.gz", hash = "sha256:880359e331358606af74d5696fd3f488383ed5d3d0ddb0837c1361b317c3276c", size = 44776, upload-time = "2025-06-02T11:11:15.313Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/52/7c/65bd7f955348c03db3d9a59379baab4a19f86579593fb8189f44dc257a17/batchgeneratorsv2-0.3.2.tar.gz", hash = "sha256:636215d7ce56c33033a86f97577cb0a97b1a5c6b245d4ae4597f664191281366", size = 51037, upload-time = "2026-04-09T12:05:38.886Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/5f/8a/a45a6938f1619e340740f8df5b5f9aead8571d7e92322c6eb5021c74a792/batchgeneratorsv2-0.3.2-py3-none-any.whl", hash = "sha256:cc20db72d2f589baf14a2ce5290b138c99b8247b2b78a06f2c47f40910aadee1", size = 73738, upload-time = "2026-04-13T07:50:11.135Z" },
+]
 
 [[package]]
 name = "blosc2"
@@ -482,19 +484,6 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/e5/81/df4fbe24dff8ba3934af99044188e20a98ed441ad17a274539b74e82e126/einops-0.8.1.tar.gz", hash = "sha256:de5d960a7a761225532e0f1959e5315ebeafc0cd43394732f103ca44b9837e84", size = 54805, upload-time = "2025-02-09T03:17:00.434Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/87/62/9773de14fe6c45c23649e98b83231fffd7b9892b6cf863251dc2afa73643/einops-0.8.1-py3-none-any.whl", hash = "sha256:919387eb55330f5757c6bea9165c5ff5cfe63a642682ea788a6d472576d81737", size = 64359, upload-time = "2025-02-09T03:17:01.998Z" },
-]
-
-[[package]]
-name = "fft-conv-pytorch"
-version = "1.2.0"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "numpy" },
-    { name = "torch" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/e2/33/bebb4a0c01aa18513331b6a19d1a100b5762ce3678fefae862d2f12673e6/fft-conv-pytorch-1.2.0.tar.gz", hash = "sha256:9a061383176fa72cb2d8815d0c9ae67d03f7f1cea182ec9b9f5e869168582adb", size = 7420, upload-time = "2023-09-28T16:06:32.755Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/34/96/bbbf3761c6969defddb3c3268e2ab1a0524a7a16378afbdf06985cccce26/fft_conv_pytorch-1.2.0-py3-none-any.whl", hash = "sha256:17b9bd616df86da25e4820473698eb4831c2f2f6e73906961901e6c278098f3c", size = 6821, upload-time = "2023-09-28T16:06:31.04Z" },
 ]
 
 [[package]]
@@ -1039,7 +1028,7 @@ docs = [
 requires-dist = [
     { name = "hiddenlayer", git = "https://github.com/FabianIsensee/hiddenlayer.git" },
     { name = "monai", specifier = ">=1.5.1" },
-    { name = "nnunetv2", specifier = ">=2.6.2" },
+    { name = "nnunetv2", specifier = ">=2.7.0" },
     { name = "torch", specifier = ">=2.8.0" },
 ]
 
@@ -1345,7 +1334,7 @@ wheels = [
 
 [[package]]
 name = "nnunetv2"
-version = "2.6.2"
+version = "2.7.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "acvl-utils" },
@@ -1371,7 +1360,7 @@ dependencies = [
     { name = "tqdm" },
     { name = "yacs" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/f1/b7/d4c46112197aff2556823a1c8f2b63fba87305d29388e18731f2359a17ed/nnunetv2-2.6.2.tar.gz", hash = "sha256:4fb588e19a9147888b47a1fa9d9b1880264a37eaae97b8fc57cc50099a5f7507", size = 211454, upload-time = "2025-06-02T11:13:05.029Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/3c/89/f9faa8bb35ba43b4d84017e52bc0099ac7a0d2c3c3ef168e2c46faebd1a1/nnunetv2-2.7.0.tar.gz", hash = "sha256:cf905de25489a409b3f3f8c0cc07f179cd965dddc092127b67c07d3e03edc401", size = 205601, upload-time = "2026-04-09T12:36:48.693Z" }
 
 [[package]]
 name = "nodeenv"
