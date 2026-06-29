@@ -92,6 +92,9 @@ dependencies = [
     { name = "unittest2" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/9c/f8/bff7e5eaf85b064a85bf8827a6bda04e92e2ff4d2e908c45033344886b44/batchgenerators-0.25.1.tar.gz", hash = "sha256:4663a7f393bf1681d7675648362ba3f11b2a9474fb17228a92aac5d1ad28bb39", size = 76970, upload-time = "2024-11-07T06:56:32.595Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/85/9b/80dd928c6a3a8873677d2aba70274cbe2e411c3f260d063396d50fd5ace4/batchgenerators-0.25.1-py3-none-any.whl", hash = "sha256:edaa428031692eeac06371e12d08f9895cd743d72dc0a33c53acc9d2aad7f74a", size = 100740, upload-time = "2026-05-12T06:56:06.509Z" },
+]
 
 [[package]]
 name = "batchgeneratorsv2"
@@ -467,7 +470,7 @@ wheels = [
 
 [[package]]
 name = "dynamic-network-architectures"
-version = "0.4.2"
+version = "0.4.4"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "einops" },
@@ -475,7 +478,10 @@ dependencies = [
     { name = "timm" },
     { name = "torch" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/d8/ae/b8a29e6dd366327530390464bf7eee0e3b3bcb03deea98b1a6951edb68ba/dynamic_network_architectures-0.4.2.tar.gz", hash = "sha256:f0f4cfa26e99e7c1cc44d3ac48ce802f109c403d109c4e4d813f682fa9d0ab84", size = 28121, upload-time = "2025-06-05T10:21:31.564Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/7e/ec/36c0bd48e352257b1296fca696720cb863e7ff12023b7b9ed9acb7ada298/dynamic_network_architectures-0.4.4.tar.gz", hash = "sha256:5aee8856a255b658ef4f3b1ffa1276884bb5585cb38ff9c816403b1d905afa94", size = 42765, upload-time = "2026-06-07T14:26:11.287Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/2f/e3/07a70c9b83e5446528dd5d222fdca88ab30efcb07094536a864546c0096f/dynamic_network_architectures-0.4.4-py3-none-any.whl", hash = "sha256:7c51bc6518d5c3ee5449b81e00b4e140bb5fd26d035744c01538cdb47b55751d", size = 53618, upload-time = "2026-06-07T14:26:09.833Z" },
+]
 
 [[package]]
 name = "einops"
@@ -718,12 +724,6 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/8a/de/6c1cf78cc0ecc45d98a0eb0d8920df7b90719f8643c7ed9b1bb700f95890/imagecodecs-2025.8.2-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:52230fcd0c331b0167ccd14d7ce764bb780006b65bf69761d8bde6863419fdbf", size = 26544468, upload-time = "2025-08-03T06:07:36.096Z" },
     { url = "https://files.pythonhosted.org/packages/a6/bb/ada8851ee56ab835562fb96f764f055e16a5d43a81ebc95207f6b2f3c1d4/imagecodecs-2025.8.2-cp313-cp313-win_amd64.whl", hash = "sha256:d167c265caaf36f9f090e55b68a7c0ec4e5b436923cdc047358743f450534154", size = 22662134, upload-time = "2025-08-03T06:07:43.845Z" },
     { url = "https://files.pythonhosted.org/packages/7c/b6/687ad4e137fe637213540cf71bf6a3957cc48667ce6d96d6d9dcb8409305/imagecodecs-2025.8.2-cp313-cp313-win_arm64.whl", hash = "sha256:37199e19d61c7a6c0cf901859d7a81c4449d18047a15ca9d2ebe17176c8d1b69", size = 17968181, upload-time = "2025-08-03T06:07:47.254Z" },
-    { url = "https://files.pythonhosted.org/packages/63/5f/2be51d6ea6e6cae13d8d4ce77d5076ef72e492f670368bb193db35e146ce/imagecodecs-2025.8.2-cp314-cp314-macosx_10_14_x86_64.whl", hash = "sha256:7a3c89b5f5c946d5649892e15b5c89aeca357d048331c3a4ae89009320d2704a", size = 12447596, upload-time = "2025-08-03T06:07:49.804Z" },
-    { url = "https://files.pythonhosted.org/packages/6e/75/d9cd579b1fd5fdef5742567236adb49df15beaf8f66219412f21fb86a64c/imagecodecs-2025.8.2-cp314-cp314-macosx_11_0_arm64.whl", hash = "sha256:3a4d2249e4d25a57da7da336c68efc72a7e15f9271dc6c13c322947f30383b8e", size = 10107274, upload-time = "2025-08-03T06:07:52.787Z" },
-    { url = "https://files.pythonhosted.org/packages/57/46/011e41f99f2301091f902afd917a4a8079056510dfcb8b8529d96e4232c8/imagecodecs-2025.8.2-cp314-cp314-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:31ebfca1bd01c6e4db25c0a91301ddc9aeca1dc63642db689543a9700a5869e8", size = 25579702, upload-time = "2025-08-03T06:07:56.392Z" },
-    { url = "https://files.pythonhosted.org/packages/bd/9b/b2d38a3902b2a61cfdbe1bca7aa939b77e32349d00aba7a4014d1dfd8cb9/imagecodecs-2025.8.2-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:be84bd8f3cf1552efc92f2465af5ab40a14a788d48482ef3a702e9dae5f4cd0b", size = 26372160, upload-time = "2025-08-03T06:08:00.079Z" },
-    { url = "https://files.pythonhosted.org/packages/b3/0c/d364bff2ffb8f2864e9f7fa6dd05b57c25a4c341ba1e2f08b3dea1dc8a6d/imagecodecs-2025.8.2-cp314-cp314-win_amd64.whl", hash = "sha256:b93d77293c0aa9e661d42f3203b13ea135d5bf9f0936fbbe90780ed1c67322d3", size = 23052776, upload-time = "2025-08-03T06:08:06.975Z" },
-    { url = "https://files.pythonhosted.org/packages/7d/4b/54d1e3a2b9d11c8a875c98b543dc5527c259c174b05987b1e79ccfc107b9/imagecodecs-2025.8.2-cp314-cp314-win_arm64.whl", hash = "sha256:d7a53983d4df035761dc652e44c912092bddc5b115d6f5f612df301ce94fcd55", size = 18374009, upload-time = "2025-08-03T06:08:10.074Z" },
 ]
 
 [[package]]
@@ -1028,7 +1028,7 @@ docs = [
 requires-dist = [
     { name = "hiddenlayer", git = "https://github.com/FabianIsensee/hiddenlayer.git" },
     { name = "monai", specifier = ">=1.5.1" },
-    { name = "nnunetv2", specifier = ">=2.7.0" },
+    { name = "nnunetv2", specifier = ">=2.8.0" },
     { name = "torch", specifier = ">=2.8.0" },
 ]
 
@@ -1334,7 +1334,7 @@ wheels = [
 
 [[package]]
 name = "nnunetv2"
-version = "2.7.0"
+version = "2.8.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "acvl-utils" },
@@ -1360,7 +1360,10 @@ dependencies = [
     { name = "tqdm" },
     { name = "yacs" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/3c/89/f9faa8bb35ba43b4d84017e52bc0099ac7a0d2c3c3ef168e2c46faebd1a1/nnunetv2-2.7.0.tar.gz", hash = "sha256:cf905de25489a409b3f3f8c0cc07f179cd965dddc092127b67c07d3e03edc401", size = 205601, upload-time = "2026-04-09T12:36:48.693Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/57/d4/02dea2439f64ab414a870ee93358891914d985eda91c92f707afb204b10f/nnunetv2-2.8.0.tar.gz", hash = "sha256:32908c4a52a0ee187dadbdeed2626b11dead0889dd3de87291e36b12762217d7", size = 210756, upload-time = "2026-06-07T14:26:48.938Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/f4/83/e54effdc7bf724e43308478b6c1de809335b387d827dec45727cfc8c73fc/nnunetv2-2.8.0-py3-none-any.whl", hash = "sha256:1ca592a5d87b86d152910b80f7365b57d2bec35861cd779004b2b49a06156502", size = 293106, upload-time = "2026-06-07T14:26:47.554Z" },
+]
 
 [[package]]
 name = "nodeenv"
