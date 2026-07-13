@@ -9,7 +9,7 @@ dependencies = [
     "hiddenlayer",
     "monai>=1.5.1",
     "nnunetv2>=2.8.0",
-    "torch>=2.8.0",
+    "torch>=2.13.0",
 ]
 
 
