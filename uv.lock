@@ -1028,7 +1028,7 @@ docs = [
 requires-dist = [
     { name = "hiddenlayer", git = "https://github.com/FabianIsensee/hiddenlayer.git" },
     { name = "monai", specifier = ">=1.5.1" },
-    { name = "nnunetv2", specifier = ">=2.8.0" },
+    { name = "nnunetv2", specifier = ">=2.8.1" },
     { name = "torch", specifier = ">=2.8.0" },
 ]
 
@@ -1334,7 +1334,7 @@ wheels = [
 
 [[package]]
 name = "nnunetv2"
-version = "2.8.0"
+version = "2.8.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "acvl-utils" },
@@ -1360,9 +1360,9 @@ dependencies = [
     { name = "tqdm" },
     { name = "yacs" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/57/d4/02dea2439f64ab414a870ee93358891914d985eda91c92f707afb204b10f/nnunetv2-2.8.0.tar.gz", hash = "sha256:32908c4a52a0ee187dadbdeed2626b11dead0889dd3de87291e36b12762217d7", size = 210756, upload-time = "2026-06-07T14:26:48.938Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/1d/f6/fc6d02fafdae3059c57b612020522724a8a3648d4f80e850fb1b7493c439/nnunetv2-2.8.1.tar.gz", hash = "sha256:63646638f1bbbaaa9f2a7f92dda44b992581435e45556529f0d8190f6c80dfcc", size = 209001, upload-time = "2026-07-01T06:32:59.718Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/f4/83/e54effdc7bf724e43308478b6c1de809335b387d827dec45727cfc8c73fc/nnunetv2-2.8.0-py3-none-any.whl", hash = "sha256:1ca592a5d87b86d152910b80f7365b57d2bec35861cd779004b2b49a06156502", size = 293106, upload-time = "2026-06-07T14:26:47.554Z" },
+    { url = "https://files.pythonhosted.org/packages/b3/0a/1102f1362b290d06aaf3a92163fb424e7499dbde407230d61d2617b355f2/nnunetv2-2.8.1-py3-none-any.whl", hash = "sha256:58aeb5719c9ee7bdac4b420106940cf3b21ea08a28a494802b0921ca14fde63f", size = 291096, upload-time = "2026-07-01T06:32:58.193Z" },
 ]
 
 [[package]]
